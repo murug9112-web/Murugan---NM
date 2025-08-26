@@ -1,0 +1,103 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+
+  color: #fff;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  margin: 0;
+
+}
+
+.player {
+
+  background: #222;
+
+  padding: 20px;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  width: 300px;
+
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+
+}
+
+.song-info img {
+
+  width: 100%;
+
+  border-radius: 15px;
+
+  margin-bottom: 10px;
+
+}
+
+.controls button {
+
+  font-size: 24px;
+
+  margin: 10px;
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  background: #444;
+
+  color: #fff;
+
+  transition: 0.3s;
+
+}
+
+.controls button:hover {
+
+  background: #666;
+
+}
+
+.progress-container {
+
+  background: #444;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  margin-top: 15px;
+
+  height: 8px;
+
+  width: 100%;
+
+  position: relative;
+
+}
+
+#progress {
+
+  background: #1db954;
+
+  height: 100%;
+
+  width: 0%;
+
+  border-radius: 10px;
+
+}
